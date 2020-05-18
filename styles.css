@@ -41,8 +41,10 @@ body main  {
 .profile {
   border-radius: 50%;
   height: 150px;
+  width: 150px;
   margin-bottom: 40px;
   border: 3px solid #7159c1;
+  background: #17171e;
 }
 
 .description {
