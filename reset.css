@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #17171e;
+  color: #F4EDE8;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
