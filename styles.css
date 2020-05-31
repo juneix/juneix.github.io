@@ -90,4 +90,23 @@ body main  {
 body footer {
   font-size: 20px;
   font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body footer p {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+body footer a {
+  text-decoration: none;
+  color: #7159c1;
+  transition: color 0.3s;
+}
+
+body footer a:hover {
+  color: #9274f3;
 }
