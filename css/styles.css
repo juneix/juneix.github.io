@@ -23,22 +23,14 @@
   animation: fadeIn 1s ease-in-out;
 }
 
-body {
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
 body main  {
-  width: 100vw;
+  width: 100%;
+
   display: flex;
   align-items: center;
   flex-direction: column;
 
-  padding: 0 30px 0;
+  padding: 40px 30px 0;
 }
 
 .profile {
@@ -46,8 +38,8 @@ body main  {
   height: 150px;
   width: 150px;
   margin-bottom: 40px;
-  border: 3px solid #7159c1;
-  background: #17171e;
+  border: 3px solid var(--primary);
+  background: var(--background);
 }
 
 .description {
@@ -60,13 +52,13 @@ body main  {
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
-  color: #F4EDE8;
+  color: var(--text-color);
 
   height: 56px;
   max-width: 350px;
   width: 100%;
 
-  background: #3E3B47;
+  background: var(--box-background);
   transition: background 0.5s;
   border-radius: 4px;
 
@@ -84,7 +76,7 @@ body main  {
 }
 
 .link_container:hover {
-  background: #7159c1;
+  background: var(--primary);
 }
 
 body footer {
@@ -94,6 +86,7 @@ body footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 48px 0 40px 0;
 }
 
 body footer p {
@@ -103,10 +96,10 @@ body footer p {
 
 body footer a {
   text-decoration: none;
-  color: #7159c1;
+  color: var(--primary);
   transition: color 0.3s;
 }
 
 body footer a:hover {
-  color: #9274f3;
+  color: var(--primary-hover);
 }

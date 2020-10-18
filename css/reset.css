@@ -1,5 +1,5 @@
 html {
-  height: 100%;
+  height: 100vh;
 }
 
 * {
@@ -9,9 +9,17 @@ html {
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #7159c1;
+  --primary-hover: #9274f3;
+  --background: #17171e;
+  --box-background: #3E3B47;
+  --text-color: #F4EDE8;
+}
+
 body {
-  background: #17171e;
-  color: #F4EDE8;
+  background: var(--background);
+  color: var(--text-color);
   -webkit-font-smoothing: antialiased;
 }
 
