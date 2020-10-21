@@ -23,14 +23,18 @@
   animation: fadeIn 1s ease-in-out;
 }
 
-body main  {
-  width: 100%;
+#container {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
 
+#container main  {
   display: flex;
   align-items: center;
   flex-direction: column;
-
-  padding: 32px 30px 0;
 }
 
 .profile {
@@ -86,7 +90,6 @@ body footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 48px 0 32px 0;
 }
 
 body footer p {
