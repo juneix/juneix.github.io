@@ -21,6 +21,7 @@ body {
   background: var(--background);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 body, input, button {
