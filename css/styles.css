@@ -3,7 +3,7 @@
   100% { opacity: 1; }
 }
 
-@keyframes slidein {
+@keyframes slideIn {
   0% { margin-bottom: 5%; }
   100% { margin-bottom: 0; }
 }
@@ -13,7 +13,7 @@
 }
 
 #container {
-  padding: 32px;
+  padding: 32px 32px 0 32px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,7 +42,7 @@
 }
 
 .link_container {
-  animation: slidein 1s;
+  animation: slideIn 0.8s;
 
   text-decoration: none;
   font-size: 18px;
@@ -91,6 +91,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 24px;
+  padding-bottom: 32px;
 }
 
 #container footer p {
