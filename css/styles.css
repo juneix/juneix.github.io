@@ -9,7 +9,7 @@
 }
 
 @keyframes profileMarginTop {
-  0% { margin-top: 150px;  }
+  0% { margin-top: 200px;  }
   100% { margin-top: 0; }
 }
 
@@ -30,15 +30,26 @@ body {
   margin: auto 0;
 }
 
-#container .profile {
-  animation: profileMarginTop 1s;
+#container .profile_link {
+  margin-bottom: 32px;
 
+  display: flex;
+  border-radius: 50%;
+  animation: profileMarginTop 1s;
+}
+
+#container .profile {
   border-radius: 50%;
   height: 175px;
   width: 175px;
-  margin-bottom: 32px;
+
   border: 3px solid var(--green);
   background: var(--primary);
+  transition: border-color 0.5s, box-shadow 0.5s;
+}
+
+#container .profile:hover {
+  box-shadow: 0px 0px 20px 0px var(--primary);
 }
 
 #container .links-container {
@@ -117,4 +128,5 @@ body {
 
 #container footer a:hover {
   color: var(--primary-hover);
+  text-decoration: underline;
 }
