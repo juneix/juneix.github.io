@@ -6,7 +6,7 @@
 
 ---
 
-原本放在家里的 NAS 上（群晖 WbStation 套件），后面发现 GitHub Pages 更省事；）
+原本放在家里的 NAS 上（群晖 WebStation 套件）+ 公网IP，后面发现就我这屁大点的需求，其实用 GitHub Pages 更省事；）
 
 - 域名：白嫖的 freenom 免费域名，比 Github 送的二级域名略强
-- DDNS：Cloudflare
+- DNS：Cloudflare
