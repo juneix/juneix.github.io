@@ -3,3 +3,10 @@
 1.新增了部分中文社交平台的 svg 图标素材。
 
 2.使用桌面浏览器访问时，新增 Live2D 模型，默认为白猫(tororo)。
+
+---
+
+原本放在家里的 NAS 上（群晖 WbStation 套件），后面发现 GitHub Pages 更省事；）
+
+- 域名：白嫖的 freenom 免费域名，比 Github 送的二级域名略强
+- DDNS：Cloudflare
