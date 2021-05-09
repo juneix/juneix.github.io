@@ -21,7 +21,19 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
 
-<!--Live2D猫猫-->
+<!--百度统计-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?25138c8a209af73d3e1e7c91f8cac665";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--百度统计-->
+
+<!--Live2D模型-->
 <script src="./live2d/L2Dwidget.min.js"></script>
 <script type="text/javascript">
   L2Dwidget.init({
@@ -30,31 +42,30 @@
     },
     display: {
       superSample: 2,
-      width: 150,
-      height: 150,
+      width: 300,
+      height: 300,
       position: 'right',
       hOffset: 0,
       vOffset: 0,
     },
     mobile: {
       show: false,
-      scale: 1,
+      scale: 0.8,
       motion: true,
     },
     react: {
-      opacityDefault: 0.8,
-      opacityOnHover: 0.2,
+      opacity: 1,
     }
   })
 </script>
-<!--Live2D猫猫-->
+<!--Live2D模型-->
 
 </head>
 <body class="fadeIn">
   <div id="container">
     <a class="profile_link" href="#"
     >
-      <img class="profile" src="./website.png" alt="Profile">
+      <img class="profile" src="./assets/website.png" alt="Profile">
     </a>
 
     <div class="links-container">
@@ -105,7 +116,7 @@
     ©2020 Juneix
     <p>
       Made with ❤️ 
-      <a href="https://5nav.ml" target="_blank">谢週五の导航站</a>
+      <a href="https://5nav.cf" target="_blank">谢週五の导航站</a>
     </p>  
     </footer>
   </div>
