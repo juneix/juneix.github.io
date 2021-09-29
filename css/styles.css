@@ -64,6 +64,14 @@ body {
   margin-bottom: 24px;
   font-weight: 500;
   font-size: 18px;
+
+  display: flex;
+  align-items: center;
+}
+
+#container .links-container .description img.hands-icon {
+  width: 24px;
+  margin: 0 12px 0 0;
 }
 
 .link {
